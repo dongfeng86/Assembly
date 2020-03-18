@@ -12,6 +12,7 @@ code segment
 		mov cx,offset do0end-offset do0
 		cld
 		rep movsb
+		
 		;设置中断向量表
 		mov ax,0
 		mov es,ax

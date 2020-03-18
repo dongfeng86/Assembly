@@ -1,3 +1,4 @@
+;本程序需要配合7ch.asm中的例程
 assume cs:code
 data segment
 	db "conversation",0

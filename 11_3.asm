@@ -14,6 +14,7 @@ codesg segment
 		mov cx,12
 	  s:mov al,[bx]
 		cmp al,2
+		
 		jb outran
 		cmp al,8
 		ja outran
